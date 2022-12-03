@@ -48,7 +48,7 @@ function Popup({ Items, menuData }) {
         <Box component="div" sx={{ p: 2 }} className="popup-cart">
         <Typography>
               {" "}
-              Total Quantity of item is :  {Items.length}
+              Total Quantity of item is :  
             </Typography>
           {Items.map((itemData, i) => {
           
